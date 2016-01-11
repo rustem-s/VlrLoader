@@ -30,7 +30,7 @@ namespace VlrLoader
             + " values (@id_vlr, @codreg, @codarea, @coddistr, @imsi, @msisdn, @imei, @accessing_time, @id_vlr_file);";
 
         private static string SQL_INSERT_VLR_SELECT_VLR_TEMP =
-            "insert into " + VLR_TABLE_NAME + "(id, codreg, codarea, coddistr, imsi, msisdn, imei, accessing_time, id_vlr_file)"
+            "insert into " + VLR_TABLE_NAME + "(id, codreg, codarea, coddistr, imsi, msisdn, imei, accessing_date, accessing_time, id_vlr_file)"
             + " select"
 	            + " next value for vlr_seq,"
 	            + " substring(t.gcisai, 1, 5),"
@@ -39,7 +39,8 @@ namespace VlrLoader
 	            + " t.imsi,"
 	            + " t.msisdn,"
 	            + " t.imei,"
-	            + " convert(datetime2, accessing_time),"
+	            + " convert(date, accessing_time) accessing_date,"
+	            + " convert(time, accessing_time) accessing_time,"
 	            + " t.id_vlr_file"
             + " from vlr_temp t"
             + " where"

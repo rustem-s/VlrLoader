@@ -150,3 +150,11 @@
 2015-12-04 11:04:58.9972|INFO|VlrLoader.Program|Starting the loading process
 2015-12-04 11:04:59.0102|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
 2015-12-04 11:06:23.9765|INFO|VlrLoader.Program|Loading process is finished
+2015-12-07 14:00:03.6682|INFO|VlrLoader.Program|Starting the loading process
+2015-12-07 14:00:03.6812|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-10 10:25:45.0207|INFO|VlrLoader.Program|Starting the loading process
+2016-01-10 10:25:47.1819|INFO|VlrLoader.Program|Source folder: \\smf-sql-01\c$\VLR\SourceFiles
+2016-01-10 10:40:13.0356|ERROR|VlrLoader.Program|   в System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   в System.Data.SqlClient.SqlTransaction.Rollback()
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 86 Данный SqlTransaction завершен; его повторное использование невозможно.
+2016-01-10 10:40:16.6337|INFO|VlrLoader.Program|Loading process is finished
