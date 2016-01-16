@@ -150,3 +150,512 @@
 2015-12-04 11:04:58.9972|INFO|VlrLoader.Program|Starting the loading process
 2015-12-04 11:04:59.0102|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
 2015-12-04 11:06:23.9765|INFO|VlrLoader.Program|Loading process is finished
+2015-12-07 14:00:03.6682|INFO|VlrLoader.Program|Starting the loading process
+2015-12-07 14:00:03.6812|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-10 10:25:45.0207|INFO|VlrLoader.Program|Starting the loading process
+2016-01-10 10:25:47.1819|INFO|VlrLoader.Program|Source folder: \\smf-sql-01\c$\VLR\SourceFiles
+2016-01-10 10:40:13.0356|ERROR|VlrLoader.Program|   в System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   в System.Data.SqlClient.SqlTransaction.Rollback()
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 86 Данный SqlTransaction завершен; его повторное использование невозможно.
+2016-01-10 10:40:16.6337|INFO|VlrLoader.Program|Loading process is finished
+2016-01-10 13:58:15.4021|INFO|VlrLoader.Program|Starting the loading process
+2016-01-10 13:58:15.4141|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-10 13:59:01.9398|INFO|VlrLoader.Program|Loading process is finished
+2016-01-10 14:09:13.7124|INFO|VlrLoader.Program|Starting the loading process
+2016-01-10 14:09:13.7243|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-10 14:09:59.9920|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:11:53.0086|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:11:53.0208|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:11:54.3126|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:55.2111|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:56.0179|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:56.9912|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:57.8134|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:58.5956|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:59.2977|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:11:59.8575|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:12:00.5635|WARN|VlrLoader.Program|Элемент с тем же ключом уже был добавлен. StackTrace:    в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 80
+2016-01-11 10:14:05.6532|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:14:05.6652|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:14:19.6273|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:20:13.6820|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:20:13.6940|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:20:18.6457|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:27:21.9495|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:27:21.9625|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:27:22.0481|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.0616|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.0777|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.0939|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.1161|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.1320|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.1491|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.1659|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.1877|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.2040|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.2494|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.2702|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.3541|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.3976|WARN|VlrLoader.Program|Неправильный синтаксис около конструкции "+". StackTrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 329
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:27:22.4200|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:30:55.0097|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:30:55.0297|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:31:00.8549|INFO|VlrLoader.Program|10.01.2016 0:00:00, System.Collections.Generic.List`1[VlrLoader.VlrFile]
+2016-01-11 10:31:00.8639|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:31:07.0275|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:31:07.0466|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:31:10.3033|INFO|VlrLoader.Program|10.01.2016 0:00:00, System.Collections.Generic.List`1[VlrLoader.VlrFile]
+2016-01-11 10:31:10.3113|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:31:22.5734|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:31:22.5904|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:31:22.6464|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.6569|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.6709|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.6869|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.6869|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7129|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7217|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7217|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12001.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7217|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12002.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7392|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12003.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7392|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12004.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7514|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12005.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7514|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12006.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7514|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12007.txt StackTrace:    в VlrLoader.Utils.checkExistenceVlrFile(String fileName) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 337
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 50
+2016-01-11 10:31:22.7675|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:32:06.8748|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:32:06.8748|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:32:06.9424|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 10:32:06.9424|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 10:32:06.9551|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 10:32:06.9551|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 10:32:06.9551|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 10:32:06.9719|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 10:32:06.9719|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 10:32:06.9848|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 10:32:06.9848|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 10:32:06.9848|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 10:32:07.0053|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 10:32:07.0053|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 10:32:07.0169|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 10:32:07.0169|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 10:32:07.0169|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 10:35:58.1075|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 10:35:58.1200|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 10:36:04.5837|INFO|VlrLoader.Program|10.01.2016 0:00:00
+2016-01-11 10:36:04.5837|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5837|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5837|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5937|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5937|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5937|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5937|INFO|VlrLoader.Program|MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt, \\smf-fs-02\Confidential\For_Amine\MSS01SIM_User data_2016-1-10-23-10-0_ImmdTask12
+2016-01-11 10:36:04.5937|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12001.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6087|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12002.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6087|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12003.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6087|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12004.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6087|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12005.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6087|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12006.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6242|INFO|VlrLoader.Program|MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12007.txt, \\smf-fs-02\Confidential\For_Amine\MSS02SEV_User data_2016-1-10-23-9-40_ImmdTask12
+2016-01-11 10:36:04.6242|INFO|VlrLoader.Program|
+2016-01-11 10:36:04.6242|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:01:52.8863|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:01:52.9023|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 11:02:00.1700|ERROR|VlrLoader.Program|ERROR ON LOAD FILE: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt. Error message: Неправильный синтаксис около конструкции "+".. Stacktrace:    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в VlrLoader.Utils.insertVlrFile(String filePath, String fileName, DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 171
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 114    в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 121
+2016-01-11 11:02:00.1787|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:02:59.6866|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:02:59.7252|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 11:03:43.1711|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:04:26.9216|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:04:26.9374|INFO|VlrLoader.Program|Source folder: \\smf-fs-02\Confidential\For_Amine
+2016-01-11 11:04:26.9840|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 11:04:26.9840|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 11:04:26.9990|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 11:04:26.9990|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 11:04:26.9990|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 11:04:27.0209|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 11:04:27.0209|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 11:04:27.0350|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 11:04:27.0350|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 11:04:27.0501|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 11:04:27.0501|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 11:04:27.0654|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 11:04:27.0654|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 11:04:27.0814|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS02SEV_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 11:04:27.1034|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:44:09.0958|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:44:09.1105|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 11:44:11.4500|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 11:44:11.4556|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 11:44:11.4556|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 11:44:11.4556|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 11:44:11.4692|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 11:44:11.4692|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 11:44:11.4692|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 11:44:11.4907|ERROR|VlrLoader.Program|   в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 372
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 99 LOADING FILES WITH DATE 01.10.2015 0:00:00 IS PROHIBITED. FILE DATE 01.10.2015 0:00:00 IS LESS THAN MAX FILE DATE 10.01.2016 0:00:00 IN VLR_FILE TABLE
+2016-01-11 11:44:11.4907|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:47:21.6509|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:47:21.6659|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 11:47:24.1236|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 11:47:24.1236|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 11:47:24.1437|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 11:47:24.1437|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 11:47:24.1618|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 11:47:24.1713|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 11:47:24.1713|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 11:47:24.2054|ERROR|VlrLoader.Program|ExecuteReader требует, чтобы команда имела транзакцию, если подключение, назначенное команде, находится в отложенной локальной транзакции Свойство Transaction для команды не инициализировано.    в System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 362
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 11:47:24.2253|ERROR|VlrLoader.Program|ExecuteReader требует, чтобы команда имела транзакцию, если подключение, назначенное команде, находится в отложенной локальной транзакции Свойство Transaction для команды не инициализировано.    в System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 362
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 11:47:24.2430|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 11:47:52.7578|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 11:47:52.7849|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 11:47:55.2175|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12001.txt
+2016-01-11 11:47:55.2360|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12002.txt
+2016-01-11 11:47:55.2541|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12003.txt
+2016-01-11 11:47:55.2729|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12004.txt
+2016-01-11 11:47:55.2900|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12005.txt
+2016-01-11 11:47:55.3076|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12006.txt
+2016-01-11 11:47:55.3257|WARN|VlrLoader.Program|FILE ALREADY EXISTS IN VLR_FILE. File name: MSS01SIM_User data_2016-1-10-23-0-1_ImmdTask12007.txt
+2016-01-11 11:47:55.3473|ERROR|VlrLoader.Program|LOADING FILES WITH DATE 01.10.2015 0:00:00 IS PROHIBITED. FILE DATE 01.10.2015 0:00:00 IS LESS THAN MAX FILE DATE 10.01.2016 0:00:00 IN VLR_FILE TABLE    в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 372
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 11:47:55.3634|ERROR|VlrLoader.Program|LOADING FILES WITH DATE 13.12.2015 0:00:00 IS PROHIBITED. FILE DATE 13.12.2015 0:00:00 IS LESS THAN MAX FILE DATE 10.01.2016 0:00:00 IN VLR_FILE TABLE    в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 372
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 11:47:55.3634|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 15:40:30.5318|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 15:40:30.5478|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 15:40:33.4365|ERROR|VlrLoader.Program|Заданное приведение является недопустимым.    в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 386
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 15:40:33.4365|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 15:42:31.9207|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 15:42:31.9357|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 15:42:34.1958|ERROR|VlrLoader.Program|Заданное приведение является недопустимым.    в VlrLoader.Utils.checkFileDate(DateTime fileDate) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 388
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 104
+2016-01-11 15:42:34.1998|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 15:48:21.9874|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 15:48:21.9997|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 16:01:03.3930|ERROR|VlrLoader.Program|Часть даты year не поддерживается функцией для работы с датами datepart для типа time.    в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в VlrLoader.Utils.executeVlrLoad(DateTime date) в d:\Projects\VlrLoader\VlrLoader\Utils.cs:строка 214
+   в VlrLoader.Program.Main(String[] args) в d:\Projects\VlrLoader\VlrLoader\Program.cs:строка 129
+2016-01-11 16:01:03.4388|INFO|VlrLoader.Program|Loading process is finished
+2016-01-11 16:12:40.4391|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 16:12:40.4571|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 16:14:00.9971|INFO|VlrLoader.Program|Starting the loading process
+2016-01-11 16:14:01.0411|INFO|VlrLoader.Program|Source folder: SourceFiles
+2016-01-11 16:17:17.2595|INFO|VlrLoader.Program|Loading process is finished

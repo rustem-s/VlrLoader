@@ -12,7 +12,11 @@ namespace VlrLoader
 {
     class Utils
     {
-        private static string VLR_TABLE_NAME = "vlr";
+        private static string VLR_TABLE_NAME = "VLR_t";
+
+        private static string VLR_FILE_TABLE_NAME = "VLR_FILE_t";
+
+        private static string VLR_TEMP_TABLE_NAME = "VLR_TEMP_t";
 
         private static string SP_UPDATE_VLR_PARAMS = 
             "update vlr_params"
@@ -20,8 +24,8 @@ namespace VlrLoader
             + " where param_key = @param_key;";
 
         private static string SP_INSERT_VLR_FILE =
-            "set @id_vlr_file = next value for vlr_file_seq;"
-            + " insert into vlr_file(id, file_path, file_name, file_date)"
+            "set @id_vlr_file = next value for " + VLR_FILE_TABLE_NAME + "_seq;"
+            + " insert into " + VLR_FILE_TABLE_NAME + "(id, file_path, file_name, file_date)"
             + " values (@id_vlr_file, @file_path, @file_name, @file_date);";
 
         private static string SP_INSERT_VLR =
@@ -30,7 +34,7 @@ namespace VlrLoader
             + " values (@id_vlr, @codreg, @codarea, @coddistr, @imsi, @msisdn, @imei, @accessing_time, @id_vlr_file);";
 
         private static string SQL_INSERT_VLR_SELECT_VLR_TEMP =
-            "insert into " + VLR_TABLE_NAME + "(id, codreg, codarea, coddistr, imsi, msisdn, imei, accessing_time, id_vlr_file)"
+            "insert into " + VLR_TABLE_NAME + "(id, codreg, codarea, coddistr, imsi, msisdn, imei, accessing_date, accessing_time, id_vlr_file)"
             + " select"
 	            + " next value for vlr_seq,"
 	            + " substring(t.gcisai, 1, 5),"
@@ -39,27 +43,31 @@ namespace VlrLoader
 	            + " t.imsi,"
 	            + " t.msisdn,"
 	            + " t.imei,"
-	            + " convert(datetime2, accessing_time),"
+	            + " convert(date, accessing_time) accessing_date,"
+	            + " convert(time, accessing_time) accessing_time,"
 	            + " t.id_vlr_file"
-            + " from vlr_temp t"
+            + " from " + VLR_TEMP_TABLE_NAME + " t"
             + " where"
 	            + " t.msisdn <> ''"
 	            + " and t.accessing_time <> ''";
 
         private static string SQL_DELETE_VLR_TEMP = 
             //"delete from vlr_temp";
-            "truncate table vlr_temp";
+            "truncate table " + VLR_TEMP_TABLE_NAME;
 
         private static string SQL_SELECT_COUNT_VLR_FILE = 
-            "select iif(count(1) = 0, 0, 1) "
-		    + " from vlr_file"
+            "select iif(count(1) = 0, 0, 1)"
+		    + " from " + VLR_FILE_TABLE_NAME
 		    + " where file_name = @file_name;";
+
+        private static string SQL_SELECT_MAX_FILE_DATE_FROM_VLR_FILE =
+            "select isNull(max(file_date), '01.01.1970') from " + VLR_FILE_TABLE_NAME;
 
         private static string SQL_SELECT_MIN_MAX_DATES_FROM_VLR_TEMP =
             " select"
                 + " min(convert(datetime2, accessing_time)) min_date,"
                 + " max(convert(datetime2, accessing_time)) max_date"
-            + " from vlr_temp t"
+            + " from " + VLR_TEMP_TABLE_NAME + "t"
             + " where"
                 + " t.msisdn <> ''"
                 + " and t.accessing_time <> ''";
@@ -187,6 +195,24 @@ namespace VlrLoader
 
         }
 
+        /*
+         * execute stored proc VLRDatabase.vlr_load @date
+         * 
+        */
+        public static void executeVlrLoad(DateTime date)
+        {
+
+            SqlCommand cmd = new SqlCommand("vlr_load", Db.SQL_CONNECTION);
+
+            cmd.Transaction = Db.SQL_TRANSACTION;
+            cmd.CommandTimeout = 43200; // seconds, 12 hours
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.Add("@date", SqlDbType.Date).Value = date;
+
+            cmd.ExecuteNonQuery();
+        }
 
 
         /*
@@ -302,7 +328,7 @@ namespace VlrLoader
         }
 
         /*
-         * validateVlrFileName
+         * checkExistenceVlrFile
          * 
         */
         public static void checkExistenceVlrFile(string fileName)
@@ -312,7 +338,7 @@ namespace VlrLoader
             
             SqlCommand query = new SqlCommand(SQL_SELECT_COUNT_VLR_FILE, Db.SQL_CONNECTION);
 
-            query.Transaction = Db.SQL_TRANSACTION;
+            //query.Transaction = Db.SQL_TRANSACTION;
             query.CommandTimeout = 300; // seconds
 
             query.Parameters.AddWithValue("@file_name", fileName);
@@ -333,6 +359,37 @@ namespace VlrLoader
             }
         }
 
+        /*
+         * checkFileDate
+         * 
+        */
+        public static void checkFileDate(DateTime fileDate)
+        {
+
+            SqlDataAdapter dataAdapter = new SqlDataAdapter();
+
+            SqlCommand query = new SqlCommand(SQL_SELECT_MAX_FILE_DATE_FROM_VLR_FILE, Db.SQL_CONNECTION);
+
+            query.Transaction = Db.SQL_TRANSACTION;
+            query.CommandTimeout = 300; // seconds
+
+            dataAdapter.SelectCommand = query;
+
+            DataSet dataSet = new DataSet();
+
+            dataAdapter.Fill(dataSet, "max_file_date");
+
+            DataTable dataTable = dataSet.Tables["max_file_date"];
+
+            DataRow dataRow = dataTable.Rows[0];
+
+            DateTime maxFileDate = (DateTime)dataRow[0];
+
+            if (fileDate < maxFileDate)
+            {
+                throw new Exception(String.Format("LOADING FILES WITH DATE {0} IS PROHIBITED. FILE DATE {0} IS LESS THAN MAX FILE DATE {1} IN VLR_FILE TABLE", fileDate, maxFileDate));
+            }
+        }
 
         /*
          * updateBulkMinMaxDates
@@ -401,7 +458,7 @@ namespace VlrLoader
 
             var sqlBulkCopy = new SqlBulkCopy(Db.SQL_CONNECTION, SqlBulkCopyOptions.TableLock, Db.SQL_TRANSACTION)
             {
-                DestinationTableName = "VLR_TEMP",
+                DestinationTableName = VLR_TEMP_TABLE_NAME,
                 BatchSize = dataTable.Rows.Count
             };
 

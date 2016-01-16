@@ -1,9 +1,9 @@
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\VlrLoader.exe.config
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\VlrLoader.exe
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\VlrLoader.pdb
-D:\Projects\VlrLoader\VlrLoader\obj\Debug\VlrLoader.csprojResolveAssemblyReference.cache
 D:\Projects\VlrLoader\VlrLoader\obj\Debug\VlrLoader.exe
 D:\Projects\VlrLoader\VlrLoader\obj\Debug\VlrLoader.pdb
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\NLog.config
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\NLog.dll
 D:\Projects\VlrLoader\VlrLoader\bin\Debug\NLog.xml
+D:\Projects\VlrLoader\VlrLoader\obj\Debug\VlrLoader.csprojResolveAssemblyReference.cache
