@@ -12,11 +12,11 @@ namespace VlrLoader
 {
     class Utils
     {
-        private static string VLR_TABLE_NAME = "VLR_t";
+        private static string VLR_TABLE_NAME = "VLR";
 
-        private static string VLR_FILE_TABLE_NAME = "VLR_FILE_t";
+        private static string VLR_FILE_TABLE_NAME = "VLR_FILE";
 
-        private static string VLR_TEMP_TABLE_NAME = "VLR_TEMP_t";
+        private static string VLR_TEMP_TABLE_NAME = "VLR_TEMP";
 
         private static string SP_UPDATE_VLR_PARAMS = 
             "update vlr_params"
@@ -67,7 +67,7 @@ namespace VlrLoader
             " select"
                 + " min(convert(datetime2, accessing_time)) min_date,"
                 + " max(convert(datetime2, accessing_time)) max_date"
-            + " from " + VLR_TEMP_TABLE_NAME + "t"
+            + " from " + VLR_TEMP_TABLE_NAME + " t"
             + " where"
                 + " t.msisdn <> ''"
                 + " and t.accessing_time <> ''";

@@ -128,14 +128,14 @@ namespace VlrLoader
                             // insert into VLR from select VLR_TEMP
                             Utils.insertVlrSelectVlrTemp();
 
-                            Console.WriteLine(String.Format("{0} Executing database stored procedure VLR_LOAD ...", DateTime.Now));
+                            logger.Info("Executing database stored procedure VLR_LOAD ...");
 
                             // execute stored proc VLR_LOAD
                             Utils.executeVlrLoad(fileDate);
 
                             Db.SQL_TRANSACTION.Commit();
 
-                            logger.Info(String.Format("Files of date {0} successfully inserted", fileDate));
+                            logger.Info(String.Format("Files of date {0} successfully loaded", fileDate));
 
                         }
                         catch (Exception e)
