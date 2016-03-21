@@ -133,8 +133,10 @@ namespace VlrLoader
 
             foreach (string f in Directory.GetFiles(folderPath))
             {
+                /*
                 if (!Path.GetExtension(f).Equals(".txt"))
                     continue;
+                */
                 fileNamesList.Add(f);
             }
             foreach (string d in Directory.GetDirectories(folderPath))
